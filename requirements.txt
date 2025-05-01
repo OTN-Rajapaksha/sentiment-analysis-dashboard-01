@@ -1,0 +1,11 @@
+streamlit
+transformers
+torch
+plotly
+pandas
+sqlite3  # comes built-in with Python
+streamlit
+transformers
+torch
+plotly
+pandas
