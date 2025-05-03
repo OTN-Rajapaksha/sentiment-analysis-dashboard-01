@@ -1,4 +1,4 @@
-# sentiment-analysis-dashboard
+# Sentiment-Analysis-Dashboard
 
 🎯Group 09
 
