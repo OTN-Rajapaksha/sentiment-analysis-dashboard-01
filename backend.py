@@ -1,10 +1,11 @@
 # backend.py
-
 from sentiment import analyze_sentiment
-from database import insert_sentiment
+from database import insert_comment
 
-# Process text and analyze sentiment, then store results
-def process_text(text):
+def process_text(text: str):
+    # 1) run sentiment model
     sentiment, score = analyze_sentiment(text)
-    insert_sentiment(text, sentiment, score)
+    # 2) store result
+    insert_comment(text, sentiment, score)
+    # 3) return for UI
     return sentiment, score
